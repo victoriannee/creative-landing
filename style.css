@@ -41,14 +41,8 @@ h3 {
 	position: center;
 	margin: auto 150px;
 	text-align: center;
-	border: solid rgba(204, 186, 199,0.0); /*border fully transparent*/
-	border-width: 60px 90px;
+	padding-top: 60px;
 	overflow: scroll;
-	/*background-image: url("images/ocean.jpg");
-	background-size: cover;
-	background-position: center;*/
-	/*border-image: url("images/sunset.jpg")
-    80 50 100 50 stretch !important;*/
     justify-content: space-around;
 }
 
@@ -105,12 +99,6 @@ h3 {
 	padding-top: 0px;
 }
 }/*End of Phone Format*/
-
-
-
-
-
-
 
 
 
