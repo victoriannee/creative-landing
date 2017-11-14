@@ -1,6 +1,6 @@
-* {
+/** {
 	border: 1px solid lightpink;
-}
+}*/
 
 /* Fonts and colors only */
 body {
@@ -84,8 +84,9 @@ h3 {
 
 /* Footer Styles */
 .footer {
+	color: rgb(240, 216, 209);
 	height: 150px;
-	background-color: #CCBBCC;
+	background-color: #42454A;
 	padding: 20px;
 }
 /* ------------------------------------- */
