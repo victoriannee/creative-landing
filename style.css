@@ -1,3 +1,113 @@
-* {
+/** {
 	border: 1px solid lightpink;
+}*/
+
+/* Fonts and colors only */
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+
 }
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*Custom Design*/
+
+.header {
+	height: 300px;
+	background-image: url("images/pastel-clouds.jpg");
+	background-position: center bottom;
+	background-size: cover;
+}
+.banner {
+	height: 300px;
+	position: center;
+	margin: auto 150px;
+	text-align: center;
+	border: solid;
+	border-width: 60px 90px;
+	overflow: scroll;
+	background-image: url("images/pastel-clouds.jpg");
+	background-size: cover;
+	background-position: center;
+	border-image: url("images/navy-ombre-clouds.png")
+    80 50 100 50 stretch !important;
+    justify-content: space-around;
+}
+
+
+
+.banner h1 {
+	font-size: 34px;
+	letter-spacing: 15px;
+	padding: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.banner p {
+	font-size: 24px;
+	margin: auto 0px;
+}
+
+
+
+/*Custom Design for Viewport Sizes*/
+
+/*Tablet Format*/
+@media screen and (max-width: 769px) {
+.banner {
+	border-width: 60px 90px;
+	margin: 0px;
+}
+#title {
+	font-size: 28px;
+	letter-spacing: 8px;	
+}
+}/*End of Tablet Format*/
+
+
+/*Phone Format*/
+@media screen and (max-width: 481px) {
+.banner {
+	border-width: 60px 20px 60px 20px;
+	margin: 0px;
+}
+#title {
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 20px 0px;
+}
+#subtitle {
+	font-weight: lighter;
+	font-size: 18px;
+	padding-top: 0px;
+}
+}/*End of Phone Format*/
+
+
+
+
+
+
+
+
+
+
