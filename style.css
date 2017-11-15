@@ -1,6 +1,6 @@
-/** {
+* {
 	border: 1px solid lightpink;
-}*/
+}
 
 /* Fonts and colors only */
 body {
@@ -75,9 +75,16 @@ h3 {
 
 /* Body Styles */
 .body {
+	display: flex;
 	flex: 1;
 	background-color: #FFEEEE;
 	text-align: center;
+}
+
+.card {
+	width: 200px;
+	height: 100px;
+
 }
 /* ------------------------------------- */
 
