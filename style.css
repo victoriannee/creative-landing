@@ -7,6 +7,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: lighter;
 	font-style: normal;
+	text-align: center;
 
 }
 
@@ -30,6 +31,13 @@ h3 {
 
 /*Custom Design*/
 
+.content{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+/* Header Styles */
 .header {
 	height: 300px;
 	background-image: url("images/ocean.jpg");
@@ -41,18 +49,10 @@ h3 {
 	position: center;
 	margin: auto 150px;
 	text-align: center;
-	border: solid rgba(204, 186, 199,0.0); /*border fully transparent*/
-	border-width: 60px 90px;
+	padding-top: 60px;
 	overflow: scroll;
-	/*background-image: url("images/ocean.jpg");
-	background-size: cover;
-	background-position: center;*/
-	/*border-image: url("images/sunset.jpg")
-    80 50 100 50 stretch !important;*/
     justify-content: space-around;
 }
-
-
 
 .banner h1 {
 	color: rgb(240, 216, 209);
@@ -70,6 +70,26 @@ h3 {
 	font-size: 24px;
 	margin: auto 0px;
 }
+/* ------------------------------------- */
+
+
+/* Body Styles */
+.body {
+	flex: 1;
+	background-color: #FFEEEE;
+	text-align: center;
+}
+/* ------------------------------------- */
+
+
+/* Footer Styles */
+.footer {
+	color: #FFEEEE;
+	height: 150px;
+	background-color: #42454A;
+	padding: 20px;
+}
+/* ------------------------------------- */
 
 
 
@@ -105,12 +125,6 @@ h3 {
 	padding-top: 0px;
 }
 }/*End of Phone Format*/
-
-
-
-
-
-
 
 
 
