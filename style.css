@@ -1,6 +1,6 @@
-* {
+/** {
 	border: 1px solid lightpink;
-}
+}*/
 
 /* Fonts and colors only */
 body {
@@ -98,6 +98,11 @@ h3 {
 	height: 100px;
 	margin: 20px;
 	flex-basis: 30%;
+	background-color: #CCDDEE;
+}
+
+.card p {
+	background-color: #CCCCFF;
 }
 
 #itemD {
