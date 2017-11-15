@@ -31,12 +31,12 @@ h3 {
 
 /*Custom Design*/
 
-
 .content{
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 }
+
 /* Header Styles */
 .header {
 	height: 300px;
@@ -84,7 +84,7 @@ h3 {
 
 /* Footer Styles */
 .footer {
-	color: rgb(240, 216, 209);
+	color: #FFEEEE;
 	height: 150px;
 	background-color: #42454A;
 	padding: 20px;
