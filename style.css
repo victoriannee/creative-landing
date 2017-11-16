@@ -1,6 +1,6 @@
-/** {
+* {
 	border: 1px solid lightpink;
-}*/
+}
 
 /* Fonts and colors only */
 body {
@@ -80,24 +80,26 @@ h3 {
 	text-align: center;
 }
 
-#top {
+#heading {
 	height: 80px;
 	width: 100vw;
 	flex: 1;
 }
 
-.pieces {
+	/*Deck & Card Styles*/
+
+.deck {
+	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-content: space-between;
 }
 
 .card {
-	width: 300px;
-	height: 100px;
-	margin: 20px;
-	flex-basis: 30%;
+	width: auto;
+	height: 150px;
+	margin: 15px;
+	flex-basis: 20%;
 	background-color: #CCDDEE;
 }
 
@@ -105,13 +107,7 @@ h3 {
 	background-color: #CCCCFF;
 }
 
-#itemD {
-	flex-grow: 2;
-}
-
-#itemE {
-	flex-grow: 2; 
-}
+	/*End Deck & Card Styles*/
 /* ------------------------------------- */
 
 
@@ -119,7 +115,7 @@ h3 {
 .footer {
 	color: #FFEEEE;
 	height: 150px;
-	background-color: #42454A;
+	background-color: #46464D;
 	padding: 20px;
 }
 /* ------------------------------------- */
