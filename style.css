@@ -96,11 +96,17 @@ h4 {
 	width: 70%;
 }
 
+#intro {
+	/*border: 1px solid pink;*/
+	padding-bottom: 10px;
+}
+
 #deck{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	border-top: 2px solid #8A84A6;
+	padding-top: 10px;
 }
 .card {
 	 width: 300px;
@@ -109,7 +115,14 @@ h4 {
 #left {
 	 width: 15%;
 	 text-align: center;
-	 padding-top: 20px;
+	 padding-top: 30px;
+}
+
+#left h3 {
+	font-weight: lighter;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 85px;
 }
 
 #right {
