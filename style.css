@@ -106,6 +106,29 @@ h3 {
   margin-right: -150px;  
 }
 
+	/*Deck & Card Styles*/
+
+.deck {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	width: auto;
+	height: 150px;
+	margin: 15px;
+	flex-basis: 20%;
+	background-color: #CCDDEE;
+}
+
+.card p {
+	background-color: #CCCCFF;
+}
+
+	/*End Deck & Card Styles*/
+
+
 /* ------------------------------------- */
 
 
