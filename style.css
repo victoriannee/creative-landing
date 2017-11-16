@@ -77,13 +77,13 @@ h3 {
 /* Body Styles */
 .body {
 	flex: 1;
-	background-color: #FFEEEE;
+	background-color: #fbf7f8;
 	text-align: center;
 }
 
 #container {
 	padding-left: 200px;
-	padding-right: 150px;
+	padding-right: 200px;
 }
 
 #container .column {
@@ -92,18 +92,22 @@ h3 {
 }
 
 #center {
-  width: 100%;
+  /*width: 100%;*/
 }
 
 #left {
-  width: 200px;          
-  right: 200px;          
+  width: 210px;          
+  right: 210px;          
   margin-left: -100%;
 }
+#left ul {
+	list-style-type: circle;
+}
+
 
 #right {
-  width: 150px;          
-  margin-right: -150px;  
+  width: 200px;          
+  margin-right: -2000px;  
 }
 
 	/*Deck & Card Styles*/
