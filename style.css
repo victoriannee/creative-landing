@@ -1,6 +1,6 @@
-/** {
+* {
 	border: 1px solid lightpink;
-}*/
+}
 
 /* Fonts and colors only */
 body {
@@ -8,6 +8,7 @@ body {
 	font-weight: lighter;
 	font-style: normal;
 	text-align: center;
+	min-width: 550px;
 
 }
 
@@ -79,6 +80,32 @@ h3 {
 	background-color: #FFEEEE;
 	text-align: center;
 }
+
+#container {
+	padding-left: 200px;
+	padding-right: 150px;
+}
+
+#container .column {
+  position: relative;
+  float: left;
+}
+
+#center {
+  width: 100%;
+}
+
+#left {
+  width: 200px;          
+  right: 200px;          
+  margin-left: -100%;
+}
+
+#right {
+  width: 150px;          
+  margin-right: -150px;  
+}
+
 /* ------------------------------------- */
 
 
