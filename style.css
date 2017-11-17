@@ -52,8 +52,8 @@ h4 {
 }
 .banner {
 	height: 220px;
+	width: 100vw;
 	position: center;
-	margin: auto 150px;
 	text-align: center;
 	padding-top: 15px;
 	overflow: scroll;
