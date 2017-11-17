@@ -104,14 +104,25 @@ h4 {
 	left: 0px;
 }
 
+#right-background {
+	background-color: #8A84A6;
+	height: 2000px;
+	width: 20%;
+	z-index: 1;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
 #center {
-	width: 70%;
+	width: 65%;
 }
 
 #intro {
 	/*border: 1px solid pink;*/
 	padding-bottom: 10px;
 	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #deck{
@@ -121,6 +132,7 @@ h4 {
 	border-top: 2px solid #8A84A6;
 	padding-top: 10px;
 	padding-left: 10px;
+	padding-right: 10px;
 }
 .card {
 	 width: 300px;
@@ -142,9 +154,20 @@ h4 {
 }
 
 #right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	width: 20%;
 	padding: 25px 20px 20px 20px;
+	z-index: 2;
 }
+#right .post {
+	margin-bottom: 30px;
+}
+
+/*#right p {
+	margin-bottom: 25px;
+}*/
 
 /* ------------------------------------- */
 
